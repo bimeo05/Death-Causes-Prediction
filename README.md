@@ -8,12 +8,20 @@ This project investigates factors influencing standardized death rates across Eu
 
 ## 📑 Table of Contents
 - [Dependencies](#dependencies)
-- [Data Preparation](#data-preparation)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Preparation (EDA)](#data-preparation)
 - [Modeling](#modeling)
 - [Key Findings](#key-findings)
 - [Visualizations](#visualizations)
 - [Conclusions](#conclusions)
+
+## 🛠 Tools and Technologies
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=seaborn&logoColor=white)
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 ## 📚 Dependencies
 The project relies on the following libraries:
@@ -49,7 +57,7 @@ from sklearn.metrics import accuracy_score # model accuracy check
 from sklearn.preprocessing import LabelEncoder
 ```
 
-## 🧹 Data Preparation
+## 🧹 Data Preparation (EDA)
 The data preparation process involved several key steps to ensure quality analysis:
 
 ### 1️⃣ Feature Selection
@@ -121,14 +129,30 @@ Our analysis reveals that demographic factors (age, sex), geographic location (E
 
 The superior performance of the Random Forest model indicates complex, non-linear relationships between predictors and death rates that merit further investigation.
 
-## 👥 Contributors
-- Aatos Pham (Team Lead)
-- [Uyen Pham](https://www.linkedin.com/in/elliepham05/) 
-- [Linh Ha](https://www.linkedin.com/in/nhatlinhha/)
-- [Phuong Nguyen](https://www.linkedin.com/in/phuong-paige-nguyen-6b3147289/)
   
 ## 🔮 Future Work
 - Deeper analysis of specific diseases within high-mortality categories
 - Investigation of interactions between demographic factors and disease susceptibility
 - Time series forecasting of death rate trends
 - Policy impact analysis on mortality patterns
+  
+## 📜 License
+
+This work is licensed under a 
+[Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
+
+[![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+
+[cc-by-nc]: http://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
+
+## 👥 Contributors
+- Aatos Pham (Team Lead)
+- [Uyen Pham](https://www.linkedin.com/in/elliepham05/) 
+- [Linh Ha](https://www.linkedin.com/in/nhatlinhha/)
+- [Phuong Nguyen](https://www.linkedin.com/in/phuong-paige-nguyen-6b3147289/)
+
+
