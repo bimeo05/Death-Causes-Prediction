@@ -7,6 +7,16 @@ This project investigates factors influencing standardized death rates across Eu
 > "What factors influence standardized death rates across European countries from 1994 to 2010?"
 
 ## 📑 Table of Contents
+[📚 Dependencies](#---dependencies) <br>
+[🧹 Data Preparation (EDA)](#---data-preparation--eda-) <br>
+[🧮 Modeling](#---modeling) <br>
+[💡 Key Findings](#---key-findings) <br>
+[📉 Visualizations](#---visualizations) <br>
+[🔍 Conclusions](#---conclusions) <br>
+[🔮 Future Work](#---future-work) <br>
+[📜 License](#---license) <br>
+[👥 Contributors](#---contributors) <br>
+
 - [Dependencies](#dependencies)
 - [Data Preparation (EDA)](#data-preparation)
 - [Modeling](#modeling)
