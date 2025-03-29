@@ -3,8 +3,12 @@
 ## 🔎 Project Overview
 This project investigates factors influencing standardized death rates across European countries from 1994 to 2010. We analyze demographic variables, geographic regions, time trends, and causes of death to identify significant predictors of mortality patterns.
 
+---
+
 ## ❓ Research Question
 > "What factors influence standardized death rates across European countries from 1994 to 2010?"
+
+---
 
 ## 📑 Table of Contents
 [📚 Dependencies](#---dependencies) <br>
@@ -17,12 +21,7 @@ This project investigates factors influencing standardized death rates across Eu
 [📜 License](#---license) <br>
 [👥 Contributors](#---contributors) <br>
 
-- [Dependencies](#dependencies)
-- [Data Preparation (EDA)](#data-preparation)
-- [Modeling](#modeling)
-- [Key Findings](#key-findings)
-- [Visualizations](#visualizations)
-- [Conclusions](#conclusions)
+---
 
 ## 🛠 Tools and Technologies
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -32,6 +31,8 @@ This project investigates factors influencing standardized death rates across Eu
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=matplotlib&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=seaborn&logoColor=white)
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+
+---
 
 ## 📚 Dependencies
 The project relies on the following libraries:
@@ -67,6 +68,8 @@ from sklearn.metrics import accuracy_score # model accuracy check
 from sklearn.preprocessing import LabelEncoder
 ```
 
+---
+
 ## 🧹 Data Preparation (EDA)
 The data preparation process involved several key steps to ensure quality analysis:
 
@@ -92,6 +95,7 @@ The data preparation process involved several key steps to ensure quality analys
   - Label encoding for age and sex variables
 - Transformed the year range (1994-2010) to ordinal values (1-17)
 
+---
 ## 🧮 Modeling
 We implemented two regression models to answer our research question:
 
@@ -101,6 +105,7 @@ Selected as our primary model for its interpretability and straightforward insig
 ### 🌲 Random Forest Regression
 Implemented to capture potential non-linear relationships between variables.
 
+---
 ## 💡 Key Findings
 
 ### 📊 Multiple Regression Results
@@ -118,6 +123,7 @@ Implemented to capture potential non-linear relationships between variables.
 - Feature Importance: Age, circulatory system diseases (I), malignant neoplasms (C), etc. <br>
 ![Screenshot 2025-03-29 at 16 50 58](https://github.com/user-attachments/assets/5265eaa6-456e-4ccd-8767-4045216433ef)
 
+---
 ## 📉 Visualizations
 
 ### 🗺️ Regional Death Rate Trends (1994-2010) <br>
@@ -134,18 +140,20 @@ Implemented to capture potential non-linear relationships between variables.
 - **Malignant Neoplasms (C)**: Second highest contributor with approximately 1.3M deaths
 - **Other Causes**: Substantially lower mortality rates
 
+---
 ## 🔍 Conclusions
 Our analysis reveals that demographic factors (age, sex), geographic location (European region), and time period all significantly influence standardized death rates. The causes with the highest mortality impact are diseases of the circulatory system and malignant neoplasms (i.e., cancers), suggesting areas for targeted public health interventions.
 
 The superior performance of the Random Forest model indicates complex, non-linear relationships between predictors and death rates that merit further investigation.
 
-  
+---
 ## 🔮 Future Work
 - Deeper analysis of specific diseases within high-mortality categories
 - Investigation of interactions between demographic factors and disease susceptibility
 - Time series forecasting of death rate trends
 - Policy impact analysis on mortality patterns
-  
+
+---
 ## 📜 License
 
 This work is licensed under a 
@@ -159,6 +167,7 @@ This work is licensed under a
 [cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 
+---
 ## 👥 Contributors
 - Aatos Pham (Team Lead)
 - [Uyen Pham](https://www.linkedin.com/in/elliepham05/) 
