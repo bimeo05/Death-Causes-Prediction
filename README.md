@@ -11,7 +11,7 @@ This project investigates factors influencing standardized death rates across Eu
 ---
 
 ## 📑 Table of Contents
-[📚 Dependencies](#---dependencies) <br>
+[📚 Dependencies](#dependencies) <br>
 [🧹 Data Preparation (EDA)](#---data-preparation--eda-) <br>
 [🧮 Modeling](#---modeling) <br>
 [💡 Key Findings](#---key-findings) <br>
@@ -29,7 +29,6 @@ This project investigates factors influencing standardized death rates across Eu
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=matplotlib&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=seaborn&logoColor=white)
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 ---
