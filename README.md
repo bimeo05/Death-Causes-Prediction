@@ -31,6 +31,9 @@ This project investigates factors influencing standardized death rates across Eu
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=matplotlib&logoColor=white)
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
+## 📑 Data Source
+https://ec.europa.eu/eurostat/databrowser/view/hlth_cd_asdr/default/table?lang=en&category=hlth.hlth_cdeath.hlth_cd_hist
+
 ---
 
 ## 📚 Dependencies
