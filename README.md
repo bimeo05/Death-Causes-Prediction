@@ -11,7 +11,7 @@ This project investigates factors influencing standardized death rates across Eu
 ---
 
 ## 📑 Table of Contents
-[📚 Dependencies](#dependencies) <br>
+[📚 Dependencies](#---dependencies) <br>
 [🧹 Data Preparation (EDA)](#---data-preparation--eda-) <br>
 [🧮 Modeling](#---modeling) <br>
 [💡 Key Findings](#---key-findings) <br>
